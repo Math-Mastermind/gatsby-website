@@ -1,0 +1,59 @@
+@import 'styles/theme';
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 100px 0;
+	padding: 30px;
+}
+
+.title {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.items {
+	max-width: 850px;
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: $primary;
+	color: $textColor;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.icon {
+	width: 75px;
+	height: 75px;
+	margin-bottom: 15px;
+}
+
+.itemTitle {
+	font-size: 17px;
+	font-weight: 500;
+}
+
+@media (max-width: 400px) {
+	.title {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 500px) {
+	.item {
+		width: 100%;
+		height: 180px;
+	}
+}

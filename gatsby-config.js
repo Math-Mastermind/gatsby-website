@@ -4,9 +4,12 @@
 module.exports = {
   siteMetadata: {
     title: `Math Mastermind`,
-    siteUrl: `https://www.yourdomain.tld`
+    description: `Math Mastermind to interaktywna aplikacja dla systemu Windows, która umożliwia naukę matematyki poprzez proste gry i generowanie kolejnych zadań matematycznych.`,
+    twitterUsername: `@revimeister`,
+    image: `/icon.png`,
+    siteUrl: `https://mathmastermind.revku.dev/`,
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-root-import", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"

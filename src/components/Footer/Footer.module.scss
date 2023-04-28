@@ -1,0 +1,28 @@
+.wrapper {
+	padding: 50px 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.author {
+	font-weight: 600;
+}
+
+.authorLogo {
+	transform: translateY(6px);
+}
+
+.by {
+	margin-right: 15px;
+}
+
+.and {
+	margin: 0 15px;
+}
+
+.paragraph {
+	margin-top: 15px;
+}
