@@ -1,4 +1,5 @@
 import React from 'react';
+import 'styles/global.scss';
 import { SEO } from 'components/Seo/Seo';
 
 const IndexPage = () => {
