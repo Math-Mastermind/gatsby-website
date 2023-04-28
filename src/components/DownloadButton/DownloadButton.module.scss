@@ -1,0 +1,19 @@
+@import 'styles/theme';
+
+.wrapper {
+	padding: 10px 20px;
+	width: 250px;
+	background-color: $primary;
+	color: $textColor;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.icon {
+	margin-right: 15px;
+}

@@ -25,6 +25,11 @@
 	cursor: pointer;
 }
 
+.items {
+	display: flex;
+	align-items: center;
+}
+
 .item {
 	color: white;
 	font-weight: 500;
@@ -33,7 +38,11 @@
 	text-decoration: none;
 }
 
-@media (max-width: 800px) {
+.lastItem {
+	margin-right: 25px;
+}
+
+@media (max-width: 1000px) {
 	.wrapper {
 		justify-content: space-between;
 		align-items: center;
@@ -46,6 +55,10 @@
 
 	.closeIconWrapper {
 		text-align: right;
+	}
+
+	.lastItem {
+		margin: 10px 0 25px 0 !important;
 	}
 
 	.content {

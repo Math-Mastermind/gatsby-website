@@ -4,6 +4,7 @@ import * as styles from './Navigation.module.scss';
 import logo from 'images/logo.svg';
 import menuIcon from 'images/menu_icon.svg';
 import closeIcon from 'images/close_icon.svg';
+import DownloadButton from 'components/DownloadButton/DownloadButton';
 
 const Navigation = () => {
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -42,9 +43,10 @@ const Navigation = () => {
 					<a className={styles.item} href="./docs/">
 						Dokumentacja
 					</a>
-					<a className={styles.item} href="./github/">
+					<a className={`${styles.item} ${styles.lastItem}`} href="./github/">
 						GitHub
 					</a>
+					<DownloadButton />
 				</div>
 			</div>
 		</div>
