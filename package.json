@@ -1,0 +1,30 @@
+{
+  "name": "math-mastermind",
+  "version": "1.0.0",
+  "private": true,
+  "description": "math-mastermind",
+  "author": "Revku",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.9.0",
+    "gatsby-plugin-image": "^3.9.0",
+    "gatsby-plugin-manifest": "^5.9.0",
+    "gatsby-plugin-sass": "^6.9.0",
+    "gatsby-plugin-sharp": "^5.9.0",
+    "gatsby-plugin-sitemap": "^6.9.0",
+    "gatsby-source-filesystem": "^5.9.0",
+    "gatsby-transformer-sharp": "^5.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.1"
+  }
+}
