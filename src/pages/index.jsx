@@ -5,6 +5,7 @@ import { SEO } from 'components/Seo/Seo';
 import Navigation from 'components/Navigation/Navigation';
 import Header from 'components/Header/Header';
 import ModesList from 'components/ModesList/ModesList';
+import Footer from 'components/Footer/Footer';
 
 const IndexPage = () => {
 	return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
 			<Navigation />
 			<Header />
 			<ModesList />
+			<Footer />
 		</div>
 	);
 };
