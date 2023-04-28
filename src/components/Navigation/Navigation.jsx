@@ -40,10 +40,14 @@ const Navigation = () => {
 					<a className={styles.item} href="./">
 						Strona główna
 					</a>
-					<a className={styles.item} href="./docs/">
+					<a className={styles.item} href="./docs/" target="_blank">
 						Dokumentacja
 					</a>
-					<a className={`${styles.item} ${styles.lastItem}`} href="./github/">
+					<a
+						className={`${styles.item} ${styles.lastItem}`}
+						href="./github/"
+						target="_blank"
+					>
 						GitHub
 					</a>
 					<DownloadButton />
